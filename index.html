@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Gozintas</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#live-demo">Live Demo</a></li>
+                            <li><a href="#download">Download</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <h1>Gozintas</h1>
+            <div class="hero-unit" id="about">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p><a href="#live-demo" class="btn btn-primary btn-large">Live Demo</a> <a href="#video-demo" role="btn" data-toggle="modal" class="btn btn-primary btn-large">Video Demo</a></p>
+            </div>
+            
+            <div id="live-demo">
+              <div style="margin: 0 auto; background-image: url('img/phone.png'); width: 327px; height: 680px; padding: 135px 28px 0px 33px; background-repeat: no-repeat;">
+                <iframe style="height: 489px; width: 327px;" src="goz/index.html" frameborder="0" marginwidth="0" scrolling="no" width="320" height="240" id="goz"></iframe>
+              </div>
+            </div>
+            <!-- Example row of columns -->
+            <div class="row" id="download">
+                <div class="span2"></div>
+                <div class="span3">
+                    <h3>Iphone App Store</h3>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <img src="img/iphone.png" width="193" height="63" />
+                </div>
+                <div class="span2"></div>
+                <div class="span3">
+                    <h3>Android Market</h3>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <img src="img/android.png" width="193" height="63" />
+               </div>
+               <div class="span2"></div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy;Redloop 2013</p>
+            </footer>
+
+        </div> <!-- /container -->
+        
+        <div id="video-demo" class="modal hide fade">
+          <div class="modal-body">
+            <div id="video-container">
+              <object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/PL_R3zEjqEc?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/PL_R3zEjqEc?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Close</a>
+          </div>
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+       
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
