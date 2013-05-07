@@ -1,3 +1,6 @@
 [submodule "goz"]
-	path = goz
+	path = public/goz
+	url = https://sazboom-heroku:4FWqhvoXVcCp8t@github.com/sazboom/gozintas_shared.git
+[submodule "public/goz"]
+	path = public/goz
 	url = https://sazboom-heroku:4FWqhvoXVcCp8t@github.com/sazboom/gozintas_shared.git
