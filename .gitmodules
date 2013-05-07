@@ -1,0 +1,3 @@
+[submodule "goz"]
+	path = goz
+	url = https://sazboom-heroku:4FWqhvoXVcCp8t@github.com/sazboom/gozintas_shared.git
